@@ -7,19 +7,47 @@
   <link rel="stylesheet" type="text/css" href="net_pres.css">
   <meta charset = "utf-8">
   <style>
+  body {
+    background-image: url("images/the_game_homescreen.jpg");
+    /* Full height */
+    height: 80%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body, html {
+    height: 100%;
+  }
+  #start-menu {
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+  }
+  button {
+    background-color: rgba(0, 0, 0, 1.0);
+    color: white;
+    font-size: 2.5vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 2px solid black;
+    width: 100%;
+    height: 35px;
+  }
+  button:hover {
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+  }
   </style>
 </head>
 <body>
-  <h1>
-    This is a headline
-  </h1>
-
-  <div class="text-box">
-    This is a text box
-  </div>
-  <div id="arrow-box">
-    <img class="arrows" src="images/next_arrow_left.png">
-    <img class="arrows" src="images/next_arrow_right.png">
+  <div id="start-menu">
+    <a href="slide2.html">
+      <button type="button"> Start Game </button>
+    </a>
+    <button type="button"> Quit Game </button>
   </div>
 </body>
 </html>
