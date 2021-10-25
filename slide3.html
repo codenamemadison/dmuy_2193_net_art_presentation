@@ -8,7 +8,8 @@
   <meta charset = "utf-8">
   <style>
   #text-box3 {
-    margin-top: 30%;
+    margin-top: 5%;
+    margin-bottom: 6%;
     width: 80%;
     margin-left:8%;
     height:inherit;
@@ -24,18 +25,38 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
   }
   #left-arrow {
+
   }
   #right-arrow {
+
   }
+  .images {
+    display: flex;
+    width: 94%;
+    margin-left:3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    justify-content: space-between;
+  }
+  .single_image {
+    width: 48%;
+    border: 6px solid black;
+  }
+
   </style>
 </head>
 <body>
   <h1>
     About The Game
   </h1>
-
+  <div class="images">
+    <img class="single_image" src="images/art_installation.jpg">
+    <img class="single_image"  src="images/screenshots/bar_intro_screenshot.png">
+  </div>
   <div class="text-box" id="text-box3">
     <div id="text-box3-content">
     “The Game: The Game” is a feminist dating simulator video game created by
@@ -60,7 +81,9 @@
     practices of a real community of men dedicating to seducing women are
     exposed, illustrating how deeply rooted in misogyny these practices are
     as well as how much they completely disregard boundaries, consent,
-    communication, and human decency.
+    communication, and human decency. The more you comply with actions and
+    continue conversations, the more you are able to see these patterns.
+    Refusing advances can result in a short game, as described by the creator.
     <br><br>
     The game have been exhibited in gallery settings and is often shown with
     research materials and interviews. The Museum of Moving Image in NYC held
@@ -68,9 +91,17 @@
     and released publicly for anyone to play in 2019.
     </div>
   </div>
+  <div class="images">
+    <img class="single_image" src="images/screenshots/friend_seduction_coach.png">
+    <img class="single_image" src="images/screenshots/erik_who_the_hell_are_you.png">
+  </div>
   <div id="arrow-box">
-    <img class="arrows" src="images/next_arrow_left.png" id="left-arrow">
-    <img class="arrows" src="images/next_arrow_right.png" id="right-arrow">
+    <a href="slide2.html">
+      <img class="arrows" src="images/next_arrow_left.png" id="left-arrow">
+    </a>
+    <a href="slide4.html">
+      <img class="arrows" src="images/next_arrow_right.png" id="right-arrow">
+    </a>
   </div>
 </body>
 </html>

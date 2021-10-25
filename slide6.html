@@ -7,19 +7,260 @@
   <link rel="stylesheet" type="text/css" href="net_pres.css">
   <meta charset = "utf-8">
   <style>
+  h1 {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  #top-box {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    width: 60%;
+    margin-left:20%;
+    height:inherit;
+    padding: 5%;
+  }
+  .images {
+    display: flex;
+    width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .single_image {
+    width: 100%;
+    border: 6px solid black;
+  }
+  .text-box {
+    margin-top: 0%;
+    margin-bottom: 6%;
+    height:inherit;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+  /* ARTWORK BLOCK */
+  #artwork-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+  }
+  #artwork-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #text-box1 {
+
+  }
+  /* MUSIC BLOCK */
+  #music-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+  }
+  #music-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #text-box2 {
+
+  }
+  /* RANGE OF CHOICES BLOCK */
+  #choices-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+  }
+  #choices-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #text-box3 {
+
+  }
+  /* RANGE OF INTERACTIONS BLOCK */
+  #interactions-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+  }
+  #interactions-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #text-box4 {
+
+  }
+  #arrow-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .text-box-content {
+    max-height: inherit;
+  }
+  ul {
+  list-style-type: circle;
+  }
   </style>
 </head>
 <body>
   <h1>
-    This is a headline
+    In-game Elements
   </h1>
-
-  <div class="text-box">
-    This is a text box
+  <div class="text-box" id="top-box">
+    <div class="text-box-content">
+      Taking as long as four years to make, Washko has carefully crafted
+      “The Game: The Game” to accurately depict the scary realities behind
+      how pick-up culture is. Each artistic element of the game contributes
+      to the message she tried portraying in an incredibly effective and
+      meaningful manner.
+    </div>
   </div>
+  <div id="artwork-box">
+    <div class="images" id="artwork-images">
+      <img class="single_image" src="images/screenshots/welcome_page.png"
+      style="margin-bottom: 5%;">
+      <img class="single_image"  src="images/screenshots/erik_three_min_of_time.png">
+    </div>
+    <div class="text-box" id="text-box1">
+      <div class="text-box-content">
+        <h2>
+          Artwork
+        </h2>
+        <ul>
+          <li>The backgrounds are drawings done on cyanotype-based backgrounds</li>
+          <li>This
+          type of artwork gives a paper-like texture and is coupled with a minimal
+          color palette</li>
+          <li>References the aesthetics of detective or pulp novels
+          where gendered violence often occurs</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="music-box">
+    <div class="text-box" id="text-box2">
+      <div class="text-box-content">
+        <h2>
+          Music
+        </h2>
+        <ul >
+          <li>Many interactions with the pick-up artists eventually would lead to
+          you feeling “trapped” in conversation or a possible sense of
+          obligation to keep the conversation going, even if refusing was
+          an option</li>
+          <li>The soundtrack of the game consists of an eerie ambiance
+          that tries to emulate this continous feeling of suffocation and
+          “doom” as you continue each encounter with each pick-up artist</li>
+        </ul>
+      </div>
+    </div>
+    <div class="images" id="choices-images">
+      <img class="single_image" src="images/screenshots/julien_your_friend_wont_know.png"
+      style="margin-bottom: 5%;">
+      <img class="single_image"  src="images/screenshots/erik_stare.png">
+    </div>
+  </div>
+
+  <div id="choices-box">
+    <div class="images" id="choices-images">
+      <img class="single_image" src="images/screenshots/range_of_choices_1.png"
+      style="margin-bottom: 5%;">
+      <img class="single_image"  src="images/screenshots/range_of_choices_2.png">
+    </div>
+    <div class="text-box" id="text-box3">
+      <div class="text-box-content">
+        <h2>
+          Range of Choices
+        </h2>
+        <ul >
+          <li> In each conversation, the player has a range of multiple choices of
+            dialogue when responding to the pick-up artists</li>
+          <li>Sometimes you are
+          just choosing between what to say in return to small talk but often
+          times when the player starts to get into an uncomfortable conversation
+          the player is able to choose from dialogue that ranges in showing
+          how much you enjoy the conversation and how confrontational you
+          want to be</li>
+          <li>This meant that oftentimes, the player is able to pick
+          dialogue that either:
+            <ol>
+                <li> Portrays them wanting to go along with a
+                conversation</li>
+                <li> Reluctantly going along with the conversation </li>
+                <li> Being neutral and saying nothing</li>
+                <li> Trying to get out of the conversation in a friendly
+                  approach </li>
+                <li> Being blunt and confrontational (and even sometimes rude)
+                to get out of the situation </li>
+            </ol>
+          <li>In this way, you are given freedom to choose you approach in how
+            you attempt to navigate and defuse uncomfortable and/or threatning
+            situations.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="interactions-box">
+    <div class="text-box" id="text-box4">
+      <div class="text-box-content">
+        <h2>
+          Range of Interactions
+        </h2>
+        <ul >
+          <li> In the game, you encounter a variety of interactions that
+          you will have to go through: </li>
+          <ul style="list-style-type: square;">
+            <li>Small talk</li>
+            <li>Flirting</li>
+            <li>Dancing</li>
+            <li>Hostile conversations/situations</li>
+            <li>Going to places outide of the bar (i.e. ice cream shop,
+              another club, a guy's house, etc.)</li>
+            <li>PDA/affection</li>
+            <li>Sex scenes</li>
+          </ul>
+          <li>Through these conversations,  Wahko tries to depict how pick-up
+            artists (and men with similar mindsets) see social interaction
+            as a contest and see women as a sexual conquest who will
+            often times overstep boundaries to do accomplish this. </li>
+        </ul>
+      </div>
+    </div>
+    <div class="images" id="interactions-images">
+      <img class="single_image" src="images/screenshots/asking_about_car.png"
+      style="margin-bottom: 5%;">
+      <img class="single_image"  src="images/screenshots/dancing_scene.png"
+      style="margin-bottom: 5%;">
+      <img class="single_image"  src="images/screenshots/erik_kiss.png">
+    </div>
+  </div>
+
   <div id="arrow-box">
-    <img class="arrows" src="images/next_arrow_left.png">
-    <img class="arrows" src="images/next_arrow_right.png">
+    <a href="slide5.html">
+      <img class="arrows" src="images/next_arrow_left.png" id="left-arrow">
+    </a>
+    <a href="slide7.html">
+      <img class="arrows" src="images/next_arrow_right.png" id="right-arrow">
+    </a>
   </div>
 </body>
 </html>
